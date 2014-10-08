@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C18E73319ABA36B003DC878 /* Folder-Flat-Round-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C18E73219ABA36B003DC878 /* Folder-Flat-Round-128.png */; };
+		0C18E73519ABA419003DC878 /* Circle-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C18E73419ABA419003DC878 /* Circle-128.png */; };
+		0C18E73719ABA50B003DC878 /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C18E73619ABA50B003DC878 /* rec.png */; };
+		0C18E73919ABA516003DC878 /* Rounded-Rectangle-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C18E73819ABA516003DC878 /* Rounded-Rectangle-256.png */; };
 		0C49258F19A4B84D00171171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C49258E19A4B84D00171171 /* Foundation.framework */; };
 		0C49259119A4B84D00171171 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C49259019A4B84D00171171 /* CoreGraphics.framework */; };
 		0C49259319A4B84D00171171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C49259219A4B84D00171171 /* UIKit.framework */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C18E73219ABA36B003DC878 /* Folder-Flat-Round-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folder-Flat-Round-128.png"; sourceTree = "<group>"; };
+		0C18E73419ABA419003DC878 /* Circle-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle-128.png"; sourceTree = "<group>"; };
+		0C18E73619ABA50B003DC878 /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
+		0C18E73819ABA516003DC878 /* Rounded-Rectangle-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rounded-Rectangle-256.png"; sourceTree = "<group>"; };
 		0C49258B19A4B84D00171171 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C49258E19A4B84D00171171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C49259019A4B84D00171171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +134,10 @@
 		0C49259519A4B84D00171171 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C18E73819ABA516003DC878 /* Rounded-Rectangle-256.png */,
+				0C18E73619ABA50B003DC878 /* rec.png */,
+				0C18E73419ABA419003DC878 /* Circle-128.png */,
+				0C18E73219ABA36B003DC878 /* Folder-Flat-Round-128.png */,
 				0C49259619A4B84D00171171 /* Calculator-Info.plist */,
 				0C49259719A4B84D00171171 /* InfoPlist.strings */,
 				0C49259A19A4B84D00171171 /* main.m */,
@@ -229,8 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C18E73719ABA50B003DC878 /* rec.png in Resources */,
+				0C18E73519ABA419003DC878 /* Circle-128.png in Resources */,
 				0C4925A719A4B84D00171171 /* Images.xcassets in Resources */,
+				0C18E73319ABA36B003DC878 /* Folder-Flat-Round-128.png in Resources */,
 				0C49259919A4B84D00171171 /* InfoPlist.strings in Resources */,
+				0C18E73919ABA516003DC878 /* Rounded-Rectangle-256.png in Resources */,
 				0C4925A219A4B84D00171171 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +473,7 @@
 				0C4925BF19A4B84D00171171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C4925C019A4B84D00171171 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +482,7 @@
 				0C4925C219A4B84D00171171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
